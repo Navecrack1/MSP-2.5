@@ -1,8 +1,8 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 2,
-    "desired": 2
+    "claimed": 1,
+    "desired": 1
   },
   "tunnels": [
     {
@@ -54,51 +54,51 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "power-jeffrey.gl.joinmc.link",
-          "assigned_srv": "power-jeffrey.gl.joinmc.link",
+          "assigned_domain": "advice-business.gl.at.ply.gg",
+          "assigned_srv": null,
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "4464546f-4ec9-4306-9418-3a3771fdeb97",
+          "id": "b3e7f03f-d3d3-4a07-8f70-d380e638741c",
           "ip_hostname": "20.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 26295,
-          "port_start": 26294,
+          "port_end": 2234,
+          "port_start": 2233,
           "region": "global",
           "static_ip4": "147.185.221.20",
           "tunnel_ip": "2602:fbaf:0:1::14"
         },
         "status": "allocated"
       },
-      "created_at": "2024-06-16T21:59:34.736025Z",
+      "created_at": "2024-06-16T23:05:21.760712Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "36f4f66f-3daa-432c-9c84-2a413f9ad958",
-      "name": "Minecraft Java",
+      "id": "b5db2bfa-db38-4fb4-8115-1fed54a51055",
+      "name": "unnamed",
       "origin": {
         "data": {
           "agent_id": "2519c15e-8939-4fcc-b1df-1ba030ae6745",
           "agent_name": "from-key-289c",
           "local_ip": "127.0.0.1",
-          "local_port": 25565
+          "local_port": 2233
         },
         "type": "agent"
       },
       "port_count": 1,
-      "port_type": "tcp",
+      "port_type": "udp",
       "ratelimit": {
         "bytes_per_second": null,
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": "minecraft-java"
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
